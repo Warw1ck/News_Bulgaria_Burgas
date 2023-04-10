@@ -31,7 +31,7 @@ def news():
     URL = f"https://api.newscatcherapi.com/v2/search?q=\"{query}\"&lang=bg&countries={country}"
     payload = {}
     headers = {
-        'X-API-KEY': '0l2aP-hOro8eVpZolBMRH-lpyxkbbu-NM9Rm8Yk7RVo'
+        'X-API-KEY': 'YOUR-API'
     }
     r = requests.get(URL, headers=headers, data=payload)
     return json.loads(r.text)
