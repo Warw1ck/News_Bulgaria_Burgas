@@ -30,6 +30,7 @@ def news():
     country = "BG"
     URL = f"https://api.newscatcherapi.com/v2/search?q=\"{query}\"&lang=bg&countries={country}"
     payload = {}
+    #Get your API from newscatcherapi.com
     headers = {
         'X-API-KEY': 'YOUR-API'
     }
