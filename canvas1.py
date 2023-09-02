@@ -5,7 +5,7 @@ def create_root():
     root = Tk()
 
     root.configure(background='black')
-    root.title('Bmw news')
+    root.title('Burgas news')
     root.resizable(False, False)
     root.geometry("400x600")
 
